@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>ease.js Demo</title>
+<script src="../lib/ease.js"></script>
+<script>
+
+function test(){
+
+	myEase.alg = document.getElementById('algs').value;
+
+	myEase.run(function(x){
+		document.getElementById('inner').style.left = (10 + (300 * x))+'px';
+	}, 2, 30);
+}
+
+var myEase;
+
+function init(){
+
+	myEase = new Ease('easeInSine');
+
+	var algs = myEase.algorithms();
+	var html = '';
+
+	for (var i=0; i<algs.length; i++){
+		html += '<option value="'+algs[i]+'">'+algs[i]+'</option>';
+	}
+
+	document.getElementById('algs').innerHTML = html;
+}
+
+window.onload = init;
+
+
+</script>
+<style>
+
+#outer {
+	position: relative;
+	width: 420px;
+	height: 120px;
+	background-color: #ccf;
+}
+
+#inner {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	width: 100px;
+	height: 100px;
+	background-color: #66f;
+}
+
+</style>
+</head>
+<body>
+
+<p>Algorithm: <select id="algs"></select></p>
+
+<p><input type="button" value="Test" onclick="test();"></p>
+
+<div id="outer">
+	<div id="inner"></div>
+</div>
+
+</body>
+</html>
