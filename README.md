@@ -44,6 +44,18 @@ Pass in a value between 0 and 1 (representing the absolute progress of the anima
 
 # Supported easing functions
 
- * `easeInSine`, `easeOutSine`, `easeInOutSine` - Sine function
- * ...
+We support 30 easing functions, 3 variations (in, out and in-out) for each of 10 approaches.
+You can read more about each easing function at https://easings.net/.
 
+* Sine functions - `easeInSine`, `easeOutSine`, `easeInOutSine`
+* Quadratic functions - `easeInQuad`, `easeOutQuad`, `easeInOutQuad`
+* Cubic functions - `easeInCubic`, `easeOutCubic`, `easeInOutCubic`
+* Quartic functions - `easeInQuart`, `easeOutQuart`, `easeInOutQuart`
+* Quintic `easeInQuint`, `easeOutQuint`, `easeInOutQuint`
+* Exponential functions - `easeInExpo`, `easeOutExpo`, `easeInOutExpo`
+* Circular functions - `easeInCirc`, `easeOutCirc`, `easeInOutCirc`
+* Pull-back functions - `easeInBack`, `easeOutBack`, `easeInOutBack`
+* Elastic functions - `easeInElastic`, `easeOutElastic`, `easeInOutElastic`
+* Bounce functions - `easeInBounce`, `easeOutBounce`, `easeInOutBounce`
+
+You can get an array of supported algorithms via the `.algorithms()` method.
