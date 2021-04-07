@@ -1,5 +1,7 @@
 # ease.js - Easing in JavaScript
 
+<span class="badge-npmversion"><a href="https://npmjs.org/package/@iamcal/ease.js" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@iamcal/ease.js.svg" alt="NPM version" /></a></span>
+<span class="badge-npmdownloads"><a href="https://npmjs.org/package/@iamcal/ease.js" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@iamcal/ease.js.svg" alt="NPM downloads" /></a></span>
 [![Build Status](https://travis-ci.org/iamcal/ease.js.svg)](https://travis-ci.org/iamcal/ease.js)
 [![Coverage Status](https://coveralls.io/repos/iamcal/ease.js/badge.svg)](https://coveralls.io/r/iamcal/ease.js)
 
