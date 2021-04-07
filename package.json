@@ -1,5 +1,5 @@
 {
-  "name": "ease.js",
+  "name": "@iamcal/ease.js",
   "version": "0.0.1",
   "description": "Easing in JavaScript",
   "main": "lib/ease.js",
