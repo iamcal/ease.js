@@ -5,7 +5,14 @@
 [![Build Status](https://travis-ci.org/iamcal/ease.js.svg)](https://travis-ci.org/iamcal/ease.js)
 [![Coverage Status](https://coveralls.io/repos/iamcal/ease.js/badge.svg)](https://coveralls.io/r/iamcal/ease.js)
 
-Easing functions for natural animation, in JavaScript.
+When an object changes position in real life, it rarely moves linearly.
+It can start slow, speed up, slow down, then come to rest.
+This is called _easing_.
+
+This library provides easing functions for producing natural-looking animations in JavaScript.
+
+For more on easing in general, see [Robert Penner's page](http://robertpenner.com/easing/).
+
 
 # Usage
 
@@ -54,7 +61,7 @@ You can read more about each easing function at https://easings.net/.
 * Quadratic functions - `easeInQuad`, `easeOutQuad`, `easeInOutQuad`
 * Cubic functions - `easeInCubic`, `easeOutCubic`, `easeInOutCubic`
 * Quartic functions - `easeInQuart`, `easeOutQuart`, `easeInOutQuart`
-* Quintic `easeInQuint`, `easeOutQuint`, `easeInOutQuint`
+* Quintic functions - `easeInQuint`, `easeOutQuint`, `easeInOutQuint`
 * Exponential functions - `easeInExpo`, `easeOutExpo`, `easeInOutExpo`
 * Circular functions - `easeInCirc`, `easeOutCirc`, `easeInOutCirc`
 * Pull-back functions - `easeInBack`, `easeOutBack`, `easeInOutBack`
