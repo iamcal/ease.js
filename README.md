@@ -62,3 +62,5 @@ You can read more about each easing function at https://easings.net/.
 * Bounce functions - `easeInBounce`, `easeOutBounce`, `easeInOutBounce`
 
 You can get an array of supported algorithms via the `.algorithms()` method.
+
+In the future, I may add support for further functions, with tunable parameters, similar to [d3-ease](https://github.com/d3/d3-ease).
