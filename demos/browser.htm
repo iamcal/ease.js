@@ -8,9 +8,9 @@ function test(){
 
 	myEase.alg = document.getElementById('algs').value;
 
-	myEase.run(function(x){
+	myEase.runRAF(function(x){
 		document.getElementById('inner').style.left = (10 + (300 * x))+'px';
-	}, 2, 30);
+	}, 2);
 }
 
 var myEase;

@@ -1,5 +1,11 @@
 # Version History
 
+
+## 0.0.3 - ???-??-??
+
+* Support for `window.requestAnimationFrame()` via `runRAF()`
+
+
 ## 0.0.2 - 2021-04-08
 
 * Slightly better docs

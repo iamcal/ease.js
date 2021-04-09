@@ -43,6 +43,12 @@ For some algorithms, values below 0 or above 1 can be returned (e.g. for oversho
     myEase.run(callback, duration, fps);
 
 
+If you're performing animations in a modern browser that supports `window.requestAnimationFrame`, then you can use the `.runRAF()`
+method to sync your changes to frame updates, for a smoother result.
+
+    myEase.runRAF(callback, duration);
+
+
 If you want to handle the timing yourself, you can call the `.interpolate()` method, which just runs the selected easing algorithm.
 Pass in a value between 0 and 1 (representing the absolute progress of the animation) and get back the mapped value.
 
