@@ -20,5 +20,5 @@ jobs:
 
     - run: npm install -g grunt-cli
     - run: npm install
-    - grunt
-    - grunt coveralls
+    - run: grunt
+    - run: grunt coveralls
