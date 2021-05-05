@@ -21,11 +21,10 @@ jobs:
     - run: npm install -g grunt-cli
     - run: npm install
     - run: grunt
-    - run: ls -l ./coverage/
-    - run: grunt coveralls
-    - run: ls -l ./coverage/
+    - run: ls -lR ./coverage/
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
+        path-to-lcov: 'coverage/*/lcov.info'
