@@ -2,7 +2,7 @@
 
 <span class="badge-npmversion"><a href="https://npmjs.org/package/@iamcal/ease.js" title="View this project on NPM"><img src="https://img.shields.io/npm/v/@iamcal/ease.js.svg" alt="NPM version" /></a></span>
 <span class="badge-npmdownloads"><a href="https://npmjs.org/package/@iamcal/ease.js" title="View this project on NPM"><img src="https://img.shields.io/npm/dm/@iamcal/ease.js.svg" alt="NPM downloads" /></a></span>
-[![Build Status](https://travis-ci.org/iamcal/ease.js.svg)](https://travis-ci.org/iamcal/ease.js)
+[![Build Status](https://github.com/iamcal/ease.js/actions/workflows/build.yml/badge.svg)](https://github.com/iamcal/ease.js/actions)
 [![Coverage Status](https://coveralls.io/repos/iamcal/ease.js/badge.svg)](https://coveralls.io/r/iamcal/ease.js)
 
 When an object changes position in real life, it rarely moves linearly.
