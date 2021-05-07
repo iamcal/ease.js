@@ -39,7 +39,7 @@
   },
   "homepage": "https://github.com/iamcal/ease.js",
   "scripts": {
-    "uglify": "echo \"/* lib */\" > lib/ease.min.js; ./node_modules/.bin/uglifyjs -c -- lib/ease.js >> lib/ease.min.js",
+    "uglify": "echo \"/* $(npm -s run env echo '$npm_package_name') $(date +%Y-%m-%d) */\" > lib/ease.min.js; ./node_modules/.bin/uglifyjs -c -m -- lib/ease.js >> lib/ease.min.js",
     "test": "./node_modules/.bin/karma start karma.conf.js --single-run --browsers PhantomJS --log-level ERROR",
     "coverage": "./node_modules/.bin/karma start karma-cover.conf.js --single-run --browsers PhantomJS --log-level disable",
     "build": "npm run uglify && npm run test && npm run coverage"
