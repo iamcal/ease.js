@@ -10,11 +10,6 @@
     "lib"
   ],
   "devDependencies": {
-    "grunt": "~1.0.1",
-    "grunt-contrib-uglify": "~1.0.1",
-    "grunt-karma": "~0.12.2",
-    "grunt-karma-coveralls": "^2.5.3",
-    "grunt-shell": "^1.1.2",
     "jasmine-core": "~2.4.1",
     "karma": "~0.13.22",
     "karma-chrome-launcher": "~0.2.0",
