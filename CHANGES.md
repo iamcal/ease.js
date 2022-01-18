@@ -1,5 +1,9 @@
 # Version History
 
+## 0.0.4 - ????-??-??
+
+* Updated vulnerable dev dependencies
+
 
 ## 0.0.3 - 2021-08-18
 
