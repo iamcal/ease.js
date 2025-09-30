@@ -23,7 +23,7 @@ module.exports = function(config) {
     colors: true,
     logLevel: config.LOG_DISABLE,
     autoWatch: false,
-    browsers: ['ChromeHeadless'],
+    browsers: ['ChromeHeadlessNoSandbox'],
     singleRun: false,
     plugins: [
       'karma-jasmine',
